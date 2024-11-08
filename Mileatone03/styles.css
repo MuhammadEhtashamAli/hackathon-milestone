@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background for a soft and clean look */
+}
+
+/* Form Styling */
+form {
+    margin: auto;
+    background-color: #ffffff; /* White background for form */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for a floating effect */
+    padding: 30px;
+    max-width: 600px;
+    border: 2px solid #ffcc00; /* Gold border for a touch of elegance */
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #2d2d2d; /* Dark gray for the title */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 2px solid #3498db; /* Blue border for fieldset */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Legend Styling */
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50; /* Darker color for the legend text */
+    font-size: 20px;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2d2d2d; /* Dark gray for labels */
+    font-size: 16px;
+}
+
+/* Input and Textarea Styling */
+input, textarea {
+    margin-top: 10px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #3498db; /* Blue border for input fields */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    width: 100%;
+    background-color: #ffcc00; /* Gold background for the button */
+    color: #2c3e50; /* Dark text color for readability */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button Hover Effects */
+button:hover {
+    background-color: #f39c12; /* Darker gold on hover */
+    color: white; /* White text color on hover */
+}
+
+/* Resume Display Styling */
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498db; /* Blue border for resume display */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Resume Header Styling */
+#resume-display h2 {
+    color: #2c3e50; /* Dark color for resume section headings */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Input/textarea Focus Effect */
+input:focus, textarea:focus {
+    border-color: #ffcc00; /* Gold border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.7); /* Soft gold glow on focus */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
